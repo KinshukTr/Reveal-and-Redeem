@@ -1,0 +1,343 @@
+/* Reset styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Basic layout styles */
+html, body {
+  height: 100%;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+  padding: 2rem;
+  background-color: #000000;
+}
+
+section {
+  margin-bottom: 2rem;
+}
+
+h1, h2 {
+  margin-bottom: 1rem;
+}
+
+ul {
+  list-style: disc inside;
+}
+
+
+
+
+.navbar-brand {
+  font-family: 'Georgia', serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+/* Login form specific styles */
+.login-container {
+  background: rgba(255, 255, 255, 0.8); /* Translucent background */
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+  margin: auto; /* Centering the container */
+}
+
+.login-form h1 {
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+.input-group {
+  margin-bottom: 1rem;
+  text-align: left;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 5px;
+  background-color: #333;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 0.5rem;
+}
+
+.btn:hover {
+  background-color: #555;
+}
+
+
+.not-registered {
+  margin-top: 1rem;
+  font-size: 0.875rem;
+  color: #555;
+}
+
+.not-registered a {
+  color: #121111;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.not-registered a:hover {
+  color: #999595;
+}
+
+.button-form {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 5px;
+  background-color: #333;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 1rem;
+  
+}
+
+.button-form-dash{
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 5px;
+  background-color: #333;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-left : 1rem;
+  margin-bottom: 1rem;
+  
+}
+
+
+.button-form + .button-form {
+  margin-left: 10px; 
+}
+
+
+
+
+
+.position-relative {
+  position: relative;
+}
+
+.dropdown-arrow {
+  position: absolute;
+  top: 50%;
+  right: 12px; 
+  transform: translateY(-50%);
+  pointer-events: none; 
+  width: 0;
+  height: 0;
+  border-left: 6px solid transparent; 
+  border-right: 6px solid transparent; 
+  border-top: 6px solid #495057;
+}
+
+select.form-control {
+  padding-right: 30px; 
+}
+
+
+/* FOOTER */
+
+footer {
+  background-color: #313131;
+  color: #fff;
+  padding: 2rem;
+  text-align: center;
+ 
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-social {
+  margin-bottom: 1rem;
+}
+
+.footer-social a {
+  color: #ffffff;
+  margin: 2rem;
+  font-size: 2rem;
+}
+
+.footer-social a:hover {
+  color: gray;
+}
+
+.footer-info p {
+  margin: 0.75rem;
+}
+
+.footer-info a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-info a:hover {
+  color: gray;
+}
+
+.footer-text {
+  margin-top: 1.5rem;
+  font-size: 0.875rem;
+  color: #777;
+}
+
+ /* (Padding in CSS is used to create space inside an element, between its content and its border.)*/
+
+
+
+
+ :root {
+  --gradient: linear-gradient(to left top, #DD2476 10%, #FF512F 90%) !important;
+}
+
+body {
+  background: #111 !important;
+}
+
+.card {
+  background: #222;
+  border: 1px solid #dd2476;
+  color: rgba(250, 250, 250, 0.8);
+  margin-bottom: 2rem;
+}
+
+
+.dashboard{
+  display: flex;
+  padding: 20px;
+  flex-direction: column;
+  align-items: center;
+  color: #ccc;
+  font-family:Arial, sans-serif;
+  position:relative ;
+
+}
+
+.welcome {
+  margin-bottom: 20px;
+}
+
+.welcome h2{
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+
+
+.add-scratch-card{
+ 
+ display: flex;
+ flex-direction:row;
+ align-items: center;  
+ font-size: 20px;
+}
+
+.submitted-card{
+color: white;
+}
+
+.add-scratch-card {
+  margin-bottom: 20px;
+}
+
+.voucher-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; /* Adjust the gap between cards */
+}
+
+.card {
+  width: 300px; /* Adjust card width as needed */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  
+}
+
+.card-body {
+  padding: 15px;
+}
+
+.card-title {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  margin-bottom: 5px;
+}
+
+
+.form-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 150%; 
+  background-color: rgba(0, 0, 0, 0.5); /* Translucent background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.wider-form{
+  width: 100%;
+
+}
+
+.close-button {
+  position: absolute;
+  top: 10px; /* Adjust top position as needed */
+  right: 10px; /* Adjust right position as needed */
+  background: none; /* Remove default button styling */
+
+  cursor: pointer; /* Set cursor to pointer on hover */
+  color: #070000; /* Adjust color as needed */
+  font-size: 1rem; /* Adjust font size as needed */
+}
+
+.pie-chart {
+  margin-top: 2rem;
+  text-align: left;
+}
+
+.pie-chart h3 {
+  margin-bottom: 1rem;
+}
+
